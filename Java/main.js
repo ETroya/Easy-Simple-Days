@@ -8,7 +8,7 @@ function structure()
     for (var i = 9; i < 18; i++) 
     {
         var divRow = $("<div>", { "class": "row", "id": (i) });
-        var divTime = $("<div>", { "class": "col-1 time-block hour" });
+        var divTime = $("<div>", { "class": "col-md-1 time-block hour" });
         var divDescriptions = $("<textarea>", { "class": "col-10 description", "value": "" });
         var divSaveBtn = $("<button>", { "class": "col-1 saveBtn" });
     //Connecting variables
